@@ -1,26 +1,40 @@
 <!doctype html>
-<html>
+<html class="no-scrollbar">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="output.css" rel="stylesheet">
+  <title>Code @ the Capitol</title>
 </head>
-<div class="navbar bg-base-100 flex justify-center">
+<header class="navbar bg-neutral flex justify-center rounded-3xl w-11/12 mx-auto mt-4 mb-4">
   <span class="navbar-center">
-    <a class="text-white btn bg-slate-400 hover:bg-slate-500 btn-ghost normal-case text-xl">Code @ the Capitol</a>
+    <a class="btn btn-ghost normal-case text-xl text-primary">Code<text class="text-orange-500">&nbsp;@&nbsp;</text>the
+      Capitol</a>
   </span>
-</div>
-<body>
-  <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 xl:gap-x-8">
-    <div class="items-center">
-      <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg">
-      <h2 class="mt-1">Hello</h2>
+</header>
+<div class="min-h-screen">
+  <body>
+    <div
+      class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 xl:gap-x-8 mx-auto w-11/12">
+      <div class="text-center bg-neutral rounded-xl">
+        <img class="rounded-xl object-cover object-center p-3 mx-auto overflow-hidden" alt="Place Holder Image" src="/assets/dumbledore.jpg">
+        <h1 class="m-3 text-cyan-600 text-2xl font-bold">Albus Dumbledore</h1>
+        <h1 class="m-3 text-slate-600 text-lg font-bold">Headmaster of Hogwarts</h1>
+      </div>
+      <div class="text-center bg-neutral rounded-xl">
+        <img class="rounded-xl object-cover object-center p-3 mx-auto overflow-hidden" alt="Place Holder Image"
+          src="/assets/placeholder.jpg">
+        <h1 class="m-3 text-cyan-600 text-2xl font-bold">Your Name Here</h1>
+        <h1 class="m-3 text-slate-600 text-lg font-bold">Your Description Here</h1>
+      </div>
     </div>
-    
-    <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg">
-    <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg">
-    <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg">
-    <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg">
-  </div>
-</body>
+  </body>
+  <footer
+    class="footer items-center bg-neutral text-primary sticky top-[100vh] rounded-tl-3xl left-0 right-0 rounded-tr-3xl w-11/12 mx-auto p-4 mt-4">
+    <div class="items-center grid-flow-col mx-auto text-xl">
+      <p class="text-center">Code<text class="text-orange-500 text-center">&nbsp;@&nbsp;</text>the Capitol 2023 - David Corvaglia CSHS<br>Coded by
+        Legislators</p>
+    </div>
+  </footer>
+</div>
 </html>
