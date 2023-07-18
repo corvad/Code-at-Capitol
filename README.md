@@ -1,5 +1,5 @@
 # Code @ the Capitol
-### A website similar to a photo gallery to allow legistators to take pictures of the demo and write their own code to display the picture, write their name, and a caption or description under the photo as a hello world. This website uses DaisyUI and TailwindCSS like cshsboltbots.org. The University at Texas at Austin's CS WeTeach program sponsored the event.
+### A website similar to a photo gallery to allow legistators to take pictures of the demo and write their own code to display the picture, write their name, and a caption or description under the photo as a hello world. This website uses DaisyUI and TailwindCSS like cshsboltbots.org. The University at Texas at Austin's CS WeTeach program helped sponsor the event along with CS4TX and other tech companies in the area.
 #### https://corvad.github.io/Code-at-Capitol/
 ##### News Coverage:
 ###### https://www.ccisd.net/thestream/stream-details/~board/read/post/ccisd-computer-science-students-showcase-skills-at-the-capitol
